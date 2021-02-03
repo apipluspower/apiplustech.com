@@ -5,15 +5,20 @@
 }
 
 #heading-triangle-tail {
-  border-left: 50vw solid transparent;
-  border-right: 50vw solid transparent;
-  
-  border-top: 20vh solid #161C2D;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 20vh solid #161C2D;
 }
 
 #main-logo-heading {
     width: 35vw;
     margin-top: 10vh;
+}
+
+#main-navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: .5s;
 }
 
 .nav-main-theme {
@@ -23,51 +28,186 @@
 }
 
 .nav-main-theme a {
-    color: #FFF;
+    margin: 0 10px 0 10px;
+    color: #FFF !important;
+    font-weight: 500;
 }
 
 .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
+    margin-right: 0;
+    margin-left: 0;
 }
 
-.no-gutters > .col {
+.no-gutters>.col {
     padding-left: 0;
     padding-right: 0;
 }
 
 #section-company-desc {
-   margin-top: 10vh; 
+    margin-top: 10vh;
 }
 
 #section-careers {
-   margin-top: 10vh; 
-   margin-bottom: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
 #section-footer {
     color: #FFF;
     background-color: #161C2D;
-    padding: 25px 0px 30px 0px;
+    padding: 30px 0px 30px 0px;
 }
 
 .container-fluid {
-  padding-left: 0rem;
-  padding-right: 0rem;
-  overflow: hidden;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    overflow: hidden;
 }
 
 .job-tile {
     background-color: #252F4A;
-    color: white;
+    color: #FFF;
     border-radius: 20px;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 50px 20px 50px !important;
+    margin-bottom: 5vh;
+}
+
+.job-tile .job-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.job-tile .job-terms {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #FFF;
 }
 
 .job-tile button {
     color: #FFF;
+    font-weight: 600;
     background-color: #0AB4FB;
     width: 5rem;
     border-radius: 10px;
+    height: 2.5rem;
 }
+
+#section-footer a {
+    color: #FFF;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+#section-footer a:hover {
+    color: #FFF;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+.modal-theme {
+    background-color: #252F4A !important;
+    color: #FFF;
+    border-radius: 25px !important;
+    padding: 0px 20px 10px 20px;
+}
+
+.modal-theme button {
+    background-color: transparent;
+    border: none;
+}
+
+.modal-theme button:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.modal-theme .icon-close {
+    font-size: xx-large;
+    color: #FFF;
+}
+
+.modal-theme h5 {
+    font-size: 1em;
+    margin-top: .1em;
+}
+
+.modal-theme p, ul {
+    font-size: .9em;
+}
+
+.modal-theme a {
+    color: #FFF;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.modal-theme a:hover {
+    color: #FFF;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.modal-theme .how-to-apply {
+    background-color: #D3DDE7;
+    color: #252F4A;
+    font-weight: 600;
+    display: inline-block;
+    padding: .3em .6em .3em .6em;
+    border-radius: .2em;
+}
+
+.modal-theme hr {
+    height: 100px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    #main-logo-heading {
+        width: 100vh;
+        margin-top: 9vh;
+    }
+    #navbar-logo-brand {
+        width: 30vh;
+    }
+    #heading-triangle-tail {
+        border-left: 50vw solid transparent;
+        border-right: 50vw solid transparent;
+        border-top: 10vh solid #161C2D;
+    }
+    .job-tile {
+        background-color: #252F4A;
+        color: #FFF;
+        border-radius: 20px;
+        padding: 10px 20px 10px 20px !important;
+        margin-bottom: 3vh;
+    }
+    .job-tile .job-terms {
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #FFF;
+    }
+    #section-footer a {
+        color: #FFF;
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+}
+
+/* small devices (landscape phones, 576px and up) */
+
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
