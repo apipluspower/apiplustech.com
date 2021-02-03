@@ -1,0 +1,73 @@
+#section-heading {
+    background-color: #161C2D;
+    color: #FFFFFF;
+    padding-bottom: 5vh;
+}
+
+#heading-triangle-tail {
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  
+  border-top: 20vh solid #161C2D;
+}
+
+#main-logo-heading {
+    width: 35vw;
+    margin-top: 10vh;
+}
+
+.nav-main-theme {
+    background-color: #161C2D;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-main-theme a {
+    color: #FFF;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+}
+
+.no-gutters > .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#section-company-desc {
+   margin-top: 10vh; 
+}
+
+#section-careers {
+   margin-top: 10vh; 
+   margin-bottom: 10vh;
+}
+
+#section-footer {
+    color: #FFF;
+    background-color: #161C2D;
+    padding: 25px 0px 30px 0px;
+}
+
+.container-fluid {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
+.job-tile {
+    background-color: #252F4A;
+    color: white;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+}
+
+.job-tile button {
+    color: #FFF;
+    background-color: #0AB4FB;
+    width: 5rem;
+    border-radius: 10px;
+}
