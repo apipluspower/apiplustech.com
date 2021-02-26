@@ -1,3 +1,7 @@
+div.hide {
+  display:none;
+}
+
 #section-heading {
     background-color: #161C2D;
     color: #FFFFFF;
