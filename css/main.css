@@ -1,217 +1,241 @@
 div.hide {
-  display:none;
+  display: none;
 }
 
 #section-heading {
-    background-color: #161C2D;
-    color: #FFFFFF;
-    padding-bottom: 5vh;
+  background-color: #161c2d;
+  color: #ffffff;
+  padding-bottom: 5vh;
 }
 
 #heading-triangle-tail {
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent;
-    border-top: 20vh solid #161C2D;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-top: 20vh solid #161c2d;
 }
 
 #main-logo-heading {
-    width: 35vw;
-    margin-top: 10vh;
+  width: 35vw;
+  margin-top: 10vh;
 }
 
 #main-navbar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    transition: .5s;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: 0.5s;
 }
 
 .nav-main-theme {
-    background-color: #161C2D;
-    color: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #161c2d;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .nav-main-theme a {
-    margin: 0 10px 0 10px;
-    color: #FFF !important;
-    font-weight: 500;
+  margin: 0 10px 0 10px;
+  color: #fff !important;
+  font-weight: 500;
 }
 
 .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
-.no-gutters>.col {
-    padding-left: 0;
-    padding-right: 0;
+.no-gutters > .col {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #section-company-desc {
-    margin-top: 10vh;
+  margin-top: 10vh;
 }
 
 #section-careers {
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
 }
 
 #section-footer {
-    color: #FFF;
-    background-color: #161C2D;
-    padding: 30px 0px 30px 0px;
+  color: #fff;
+  background-color: #161c2d;
+  padding: 30px 0px 30px 0px;
 }
 
 .container-fluid {
-    padding-left: 0rem !important;
-    padding-right: 0rem !important;
-    overflow: hidden;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  overflow: hidden;
 }
 
 .job-tile {
-    background-color: #252F4A;
-    color: #FFF;
-    border-radius: 20px;
-    padding: 20px 50px 20px 50px !important;
-    margin-bottom: 5vh;
+  background-color: #252f4a;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px 50px 20px 50px !important;
+  margin-bottom: 5vh;
 }
 
 .job-tile .job-title {
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: #FFF;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
 }
 
 .job-tile .job-terms {
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: #FFF;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #fff;
 }
 
 .job-tile button {
-    color: #FFF;
-    font-weight: 600;
-    background-color: #0AB4FB;
-    width: 5rem;
-    border-radius: 10px;
-    height: 2.5rem;
+  color: #fff;
+  font-weight: 600;
+  background-color: #0ab4fb;
+  width: 5rem;
+  border-radius: 10px;
+  height: 2.5rem;
+}
+
+.btn-blue {
+  color: #fff;
+  font-weight: 600;
+  background-color: #0ab4fb !important;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.btn-blue:hover {
+  color: #0ab4fb;
+  font-weight: 600;
+  background-color: #161c2d !important;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 1rem 0 1rem;
+  transition: 0.2s;
 }
 
 #section-footer a {
-    color: #FFF;
-    font-size: 1.1rem;
-    text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
 }
 
 #section-footer a:hover {
-    color: #FFF;
-    font-size: 1.1rem;
-    text-decoration: underline;
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: underline;
 }
 
 .modal-theme {
-    background-color: #252F4A !important;
-    color: #FFF;
-    border-radius: 25px !important;
-    padding: 0px 20px 10px 20px;
+  background-color: #252f4a !important;
+  color: #fff;
+  border-radius: 25px !important;
+  padding: 0px 20px 10px 20px;
 }
 
 .modal-theme button {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .modal-theme button:focus {
-    background-color: transparent;
-    border: none;
-    outline: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 .modal-theme .icon-close {
-    font-size: xx-large;
-    color: #FFF;
+  font-size: xx-large;
+  color: #fff;
 }
 
 .modal-theme h5 {
-    font-size: 1em;
-    margin-top: .1em;
+  font-size: 1em;
+  margin-top: 0.1em;
 }
 
-.modal-theme p, ul {
-    font-size: .9em;
+.modal-theme p,
+ul {
+  font-size: 0.9em;
 }
 
 .modal-theme a {
-    color: #FFF;
-    font-size: 1em;
-    text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 .modal-theme a:hover {
-    color: #FFF;
-    font-size: 1em;
-    text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 .modal-theme .how-to-apply {
-    background-color: #D3DDE7;
-    color: #252F4A;
-    font-weight: 600;
-    display: inline-block;
-    padding: .3em .6em .3em .6em;
-    border-radius: .2em;
+  background-color: #d3dde7;
+  color: #252f4a;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.3em 0.6em 0.3em 0.6em;
+  border-radius: 0.2em;
 }
 
 .modal-theme hr {
-    height: 100px;
+  height: 100px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
-    #main-logo-heading {
-        width: 100vh;
-        margin-top: 9vh;
-    }
-    #navbar-logo-brand {
-        width: 30vh;
-    }
-    #heading-triangle-tail {
-        border-left: 50vw solid transparent;
-        border-right: 50vw solid transparent;
-        border-top: 10vh solid #161C2D;
-    }
-    .job-tile {
-        background-color: #252F4A;
-        color: #FFF;
-        border-radius: 20px;
-        padding: 10px 20px 10px 20px !important;
-        margin-bottom: 3vh;
-    }
-    .job-tile .job-terms {
-        font-size: 0.7rem;
-        font-weight: 400;
-        color: #FFF;
-    }
-    #section-footer a {
-        color: #FFF;
-        font-size: 1.3rem;
-        text-decoration: none;
-    }
+  #main-logo-heading {
+    width: 100vh;
+    margin-top: 9vh;
+  }
+  #navbar-logo-brand {
+    width: 30vh;
+  }
+  #heading-triangle-tail {
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 10vh solid #161c2d;
+  }
+  .job-tile {
+    background-color: #252f4a;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px !important;
+    margin-bottom: 3vh;
+  }
+  .job-tile .job-terms {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #fff;
+  }
+  #section-footer a {
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
 }
 
 /* small devices (landscape phones, 576px and up) */
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
 
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
