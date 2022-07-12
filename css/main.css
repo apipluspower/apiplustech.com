@@ -17,7 +17,7 @@ div.hide {
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
   font-stretch: extra-expanded;
-  color: rgba(245, 245, 255, 1);
+  color: rgba(243,243,225,111);
   letter-spacing: 2px;
   word-spacing: 10px;
 }
@@ -26,7 +26,7 @@ div.hide {
   font-size: 1.2em;
   font-family: 'Syncopate', sans-serif;
   font-weight: 200;
-  color: rgba(245, 245, 255, 1);
+  color: rgba(243,243,225,111);
   letter-spacing: 1px;
 }
 
