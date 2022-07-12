@@ -8,6 +8,28 @@ div.hide {
   padding-bottom: 5vh;
 }
 
+.main-company-name {
+  text-align: center;
+}
+
+.main-company-name h2 {
+  font-size: 5.5em;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+  font-stretch: extra-expanded;
+  color: rgba(245, 245, 255, 1);
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+
+.main-company-name h3 {
+  font-size: 1.2em;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 200;
+  color: rgba(245, 245, 255, 1);
+  letter-spacing: 1px;
+}
+
 #heading-triangle-tail {
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
@@ -15,8 +37,8 @@ div.hide {
 }
 
 #main-logo-heading {
-  width: 35vw;
-  margin-top: 10vh;
+  width: 15vw;
+  margin-top: 20vh;
 }
 
 #main-navbar {
