@@ -211,9 +211,27 @@ ul {
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
+  .main-company-name h2 {
+    font-size: 3em;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-stretch: extra-expanded;
+    color: rgba(243,243,225,111);
+    letter-spacing: 2px;
+    word-spacing: 10px;
+  }
+
+  .main-company-name h3 {
+    font-size: 1em;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 200;
+    color: rgba(243,243,225,111);
+    letter-spacing: 1px;
+  }
+
   #main-logo-heading {
-    width: 100vh;
-    margin-top: 9vh;
+    width: 30vw;
+    margin-top: 20vh;
   }
   #navbar-logo-brand {
     width: 30vh;
