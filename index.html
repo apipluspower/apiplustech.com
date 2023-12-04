@@ -1,478 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/index.js"></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/main.css" />
-  <script src="./js/index.js"></script>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="./lib/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css"
+    />
+    <script src="./lib/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
 
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="./lib/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css" />
-  <script src="./lib/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syncopate:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syncopate:wght@400;700&display=swap"
-    rel="stylesheet" />
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg?" />
+    <title>API PLUS TECH Co., Ltd.</title>
+  </head>
 
-  <link rel="icon" type="image/svg" href="./assets/img/favicon.svg?" />
-  <title>API PLUS TECH Co., Ltd.</title>
-</head>
-
-<body>
-  <!-- NAVBAR -------------------------------------------------------------- -->
-  <nav id="main-navbar" class="navbar fixed-top navbar-expand-lg navbar-dark nav-main-theme justify-content-end">
-    <div class="container">
-      <img id="navbar-logo-brand" src="./assets/img/logo-nav-inline.svg?" alt="" srcset="" />
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-company-desc">WHAT WE DO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-careers">CAREERS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-footer">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- MAIN CONTAINER ------------------------------------------------------ -->
-  <div class="container-fluid no-gutters">
-    <section id="section-heading">
-      <div class="row no-gutters">
-        <div class="col d-flex justify-content-center">
-          <img src="./assets/img/favicon.svg?" alt="" srcset="" id="main-logo-heading" />
+  <body>
+    <!-- NAVBAR -------------------------------------------------------------- -->
+    <nav
+      id="main-navbar"
+      class="navbar fixed-top navbar-expand-lg navbar-dark nav-main-theme justify-content-end"
+    >
+      <div class="container">
+        <img
+          id="navbar-logo-brand"
+          src="./assets/img/logo-nav-inline.svg?"
+          alt=""
+          srcset=""
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-company-desc">WHAT WE DO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-careers">CAREERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-footer">CONTACT</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="row mt-3 main-company-name">
-        <h2 class="mb-0">API PLUS</h2>
-        <h3 class="">Api plus tech co., ltd.</h3>
-      </div>
-    </section>
-    <div class="row">
-      <div class="col">
-        <div id="heading-triangle-tail"></div>
-      </div>
-    </div>
+    </nav>
 
-    <section id="section-company-desc">
-      <div class="row justify-content-center">
-        <div class="col-10 col-sm-8">
-          <h1 class="text-center mb-5">WHAT WE DO</h1>
-          <p class="text-center">
-            API PLUS is a Platform-as-a-Service company aiming to provide a
-            one stop service for business and operation management.
-          </p>
+    <!-- MAIN CONTAINER ------------------------------------------------------ -->
+    <div class="container-fluid no-gutters">
+      <section id="section-heading">
+        <div class="row no-gutters">
+          <div class="col d-flex justify-content-center">
+            <img
+              src="./assets/img/favicon.svg?"
+              alt=""
+              srcset=""
+              id="main-logo-heading"
+            />
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section id="section-careers">
+        <div class="row mt-3 main-company-name">
+          <h2 class="mb-0">API PLUS</h2>
+          <h3 class="">Api plus tech co., ltd.</h3>
+        </div>
+      </section>
       <div class="row">
         <div class="col">
-          <h1 class="text-center mb-5">CAREERS</h1>
+          <div id="heading-triangle-tail"></div>
+        </div>
+      </div>
 
-          <!-- office assistance -->
-          <div class="row justify-content-center hide">
-            <div class="col-10 col-sm-8 job-tile">
-              <div class="row">
-                <div class="col-8">
-                  <div class="row">
-                    <span class="job-title">office assistance</span>
-                  </div>
-                  <div class="row">
-                    <span class="job-terms">bangkok, thailand (part-time)</span>
-                  </div>
-                </div>
-                <div class="col-4 d-flex justify-content-end d-flex align-items-center">
-                  <!-- Modal Trigger -->
-                  <button class="btn btn-info job-tile-btn" data-bs-toggle="modal"
-                    data-bs-target="#officeAssistanceJob">
-                    detail
-                  </button>
-                </div>
-              </div>
-            </div>
+      <section id="section-company-desc">
+        <div class="row justify-content-center">
+          <div class="col-10 col-sm-8">
+            <h1 class="text-center mb-5">WHAT WE DO</h1>
+            <p class="text-center">
+              <b>API PLUS TECH Co., Ltd.</b> is an innovative tech startup
+              dedicated to developing an integrated platform that fulfills
+              diverse business requirements. At its core, the company offers two
+              distinct yet complementary flagship products: a user-friendly,
+              no-code website builder (Wix-like with Figma style design &
+              collaboration), alongside a powerful e-Commerce solution similar
+              to Shopify and lnwshop. Through these offerings, we aim to
+              simplify and revolutionize how a business operates and maintain
+              its digital footprint.
+            </p>
           </div>
-          <!-- Modal -->
-          <div class="modal fade" id="officeAssistanceJob" aria-labelledby="officeAssistanceJob" aria-hidden="true">
-            <div class="modal-dialog modal-md modal-dialog-centered">
-              <div class="modal-content modal-theme">
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col d-flex justify-content-end">
-                      <button data-bs-dismiss="modal">
-                        <i class="bi bi-x icon-close"></i>
-                      </button>
+        </div>
+      </section>
+
+      <section id="section-careers">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center mb-5">CAREERS</h1>
+
+            <!-- office assistance -->
+            <div class="row justify-content-center hide">
+              <div class="col-10 col-sm-8 job-tile">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="row">
+                      <span class="job-title">office assistance</span>
+                    </div>
+                    <div class="row">
+                      <span class="job-terms"
+                        >bangkok, thailand (part-time)</span
+                      >
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="text-center">WHO ARE WE LOOKING FOR ?</h5>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Facilis, tempore nisi. Repellendus maiores quia
-                        adipisci perspiciatis voluptatum, commodi distinctio
-                        nemo blanditiis asperiores dolorum odio facilis,
-                        assumenda sapiente cum, numquam nihil!
-                      </p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="text-center">REQUIREMENTS</h5>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <ul>
-                        <li>one thing</li>
-                        <li>another thing</li>
-                        <li>also thing thing</li>
-                        <li>and don't forget this thing</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col d-flex justify-content-center">
-                      <h5 class="text-center how-to-apply">HOW TO APPLY</h5>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <p>
-                        Please send us an application letter, resume and
-                        University Transcript via e-mail.
-                      </p>
-                      <p>
-                        In the header, please use "JOB:SW01" as the subject
-                        title.
-                      </p>
-                      <p class="">
-                        <i class="bi bi-envelope"></i>
-                        <a href="mailto:careers@apiplustech.com">careers@apiplustech.com</a>
-                      </p>
-                    </div>
+                  <div
+                    class="col-4 d-flex justify-content-end d-flex align-items-center"
+                  >
+                    <!-- Modal Trigger -->
+                    <button
+                      class="btn btn-info job-tile-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#officeAssistanceJob"
+                    >
+                      detail
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- end of office assistance -->
-
-          <!-- software engineer internship -->
-          <div class="row justify-content-center">
-            <div class="col-10 col-sm-8 job-tile">
-              <div class="row">
-                <div class="col-8">
-                  <div class="row">
-                    <span class="job-title">Software Engineer Internship</span>
-                  </div>
-                  <div class="row">
-                    <span class="job-terms">bangkok, thailand (internship)</span>
-                  </div>
-                </div>
-                <div class="col-4 d-flex justify-content-end d-flex align-items-center">
-                  <!-- Modal Trigger -->
-                  <button class="btn btn-info job-tile-btn" data-bs-toggle="modal" data-bs-target="#sweJob">
-                    detail
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade" id="sweJob" aria-labelledby="sweJob" aria-hidden="true">
-            <div class="modal-dialog modal-md modal-dialog-centered">
-              <div class="modal-content modal-theme">
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col d-flex justify-content-end">
-                      <button data-bs-dismiss="modal">
-                        <i class="bi bi-x icon-close"></i>
-                      </button>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="text-center">WHO ARE WE LOOKING FOR ?</h5>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <p>
-                        Current student or fresh graduate who is looking to
-                        gain experience in software development. In
-                        particular, we use Dart + Flutter and Golang as our
-                        primary development language.
-                      </p>
-
-                      <p>
-                        Responsibilities: No designated position. Applicants
-                        will be encouraged to try different areas of
-                        development cycles such as frontend, backend, testing,
-                        and devops.
-                      </p>
-
-                      <p>
-                        If you are not afraid of challenges, you're a perfect
-                        fit :).
-                      </p>
-                    </div>
-                  </div>
-                  <!-- Requirements -->
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="text-center">REQUIREMENTS</h5>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <ul>
-                        <li>Good written skills in English</li>
-                        <li>
-                          Basic knowledge of software design and/or
-                          engineering
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <!-- Requirements -->
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="text-center">NICE TO HAVE</h5>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <ul>
-                        <li>Experienced in Golang/Dart or Javascript</li>
-                        <li>Basic understanding of relational database</li>
-                        <li>Linux knowledge</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <hr />
-                  <div class="row">
-                    <div class="col d-flex justify-content-center">
-                      <h5 class="text-center how-to-apply">HOW TO APPLY</h5>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <p>
-                        Please send us an application letter, resume and
-                        University Transcript via e-mail.
-                      </p>
-                      <p>
-                        In the header, please use "JOB:SW03" as the subject
-                        title.
-                      </p>
-                      <p class="">
-                        <i class="bi bi-envelope"></i>
-                        <a href="mailto:careers@apiplustech.com">careers@apiplustech.com</a><br />
-                      </p>
-                      <a href="./assets/documents/SW03.pdf" target="_blank">
-                        <button class="btn-blue">
-                          <i class="bi bi-file-earmark-post"></i> recruitment
-                          poster
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="officeAssistanceJob"
+              aria-labelledby="officeAssistanceJob"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-md modal-dialog-centered">
+                <div class="modal-content modal-theme">
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col d-flex justify-content-end">
+                        <button data-bs-dismiss="modal">
+                          <i class="bi bi-x icon-close"></i>
                         </button>
-                      </a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="text-center">WHO ARE WE LOOKING FOR ?</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Facilis, tempore nisi. Repellendus maiores quia
+                          adipisci perspiciatis voluptatum, commodi distinctio
+                          nemo blanditiis asperiores dolorum odio facilis,
+                          assumenda sapiente cum, numquam nihil!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="text-center">REQUIREMENTS</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <ul>
+                          <li>one thing</li>
+                          <li>another thing</li>
+                          <li>also thing thing</li>
+                          <li>and don't forget this thing</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col d-flex justify-content-center">
+                        <h5 class="text-center how-to-apply">HOW TO APPLY</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <p>
+                          Please send us an application letter, resume and
+                          University Transcript via e-mail.
+                        </p>
+                        <p>
+                          In the header, please use "JOB:SW01" as the subject
+                          title.
+                        </p>
+                        <p class="">
+                          <i class="bi bi-envelope"></i>
+                          <a href="mailto:careers@apiplustech.com"
+                            >careers@apiplustech.com</a
+                          >
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- end of office assistance -->
+
+            <!-- software engineer (Junior) -->
+            <div class="row justify-content-center">
+              <div class="col-10 col-sm-8 job-tile">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="row">
+                      <span class="job-title">Software Engineer (Junior)</span>
+                    </div>
+                    <div class="row">
+                      <span class="job-terms">bangkok, thailand</span>
+                    </div>
+                  </div>
+                  <div
+                    class="col-4 d-flex justify-content-end d-flex align-items-center"
+                  >
+                    <!-- Modal Trigger -->
+                    <button
+                      class="btn btn-info job-tile-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#sweJob"
+                    >
+                      detail
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="sweJob"
+              aria-labelledby="sweJob"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-md modal-dialog-centered">
+                <div class="modal-content modal-theme">
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col d-flex justify-content-end">
+                        <button data-bs-dismiss="modal">
+                          <i class="bi bi-x icon-close"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="text-center">WHO ARE WE LOOKING FOR ?</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <p>
+                          We are looking for someone who has a growth mindset, a
+                          passion for learning, and a willingness to embrace
+                          challenges and learn from failures. We also prefer
+                          someone who is enthusiastic about technology and eager
+                          to explore new tech constantly.
+                        </p>
+
+                        <p>
+                          Responsibilities: No designated position. Applicants
+                          will be encouraged to try different areas of
+                          development cycles such as frontend, backend, testing,
+                          and devops.
+                        </p>
+
+                        <p>
+                          If you are not afraid of challenges, you're a perfect
+                          fit :).
+                        </p>
+                      </div>
+                    </div>
+                    <!-- Requirements -->
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="text-center">REQUIREMENTS</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <ul>
+                          <li>Good command in English (reading and writing)</li>
+                          <li>
+                            Good knowledge of software engineering principles
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- Requirements -->
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="text-center">NICE TO HAVE</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <ul>
+                          <li>
+                            Familiarity with programming languages like Go, SQL,
+                            Python, and bash scripting
+                          </li>
+                          <li>
+                            Understanding of relational databases such as
+                            PostgreSQL and MySQL
+                          </li>
+                          <li>
+                            Experience in developing software in a containerized
+                            environment such as Docker or Kubernetes
+                          </li>
+                          <li>
+                            Comfortable using development tools like Linux, Git,
+                            Postman, etc
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col d-flex justify-content-center">
+                        <h5 class="text-center how-to-apply">HOW TO APPLY</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <p>
+                          Please send us an application letter, resume and
+                          University Transcript via e-mail.
+                        </p>
+                        <p>
+                          In the header, please use "JOB:SW-2024Q1" as the
+                          subject title.
+                        </p>
+                        <p class="">
+                          <i class="bi bi-envelope"></i>
+                          <a href="mailto:careers@apiplustech.com"
+                            >careers@apiplustech.com</a
+                          ><br />
+                        </p>
+                        <a
+                          href="./assets/documents/SW-2024Q1.png"
+                          target="_blank"
+                        >
+                          <button class="btn-blue">
+                            <i class="bi bi-file-earmark-post"></i> recruitment
+                            poster
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of software engineer -->
+
+            <!-- <!-- junior devops engineer -->
+            <!-- <div class="row justify-content-center"> -->
+            <!--   <div class="col-10 col-sm-8 job-tile"> -->
+            <!--     <div class="row"> -->
+            <!--       <div class="col-8"> -->
+            <!--         <div class="row"> -->
+            <!--           <span class="job-title">Junior Devops Engineer</span> -->
+            <!--         </div> -->
+            <!--         <div class="row"> -->
+            <!--           <span class="job-terms" -->
+            <!--             >bangkok, thailand (full-time)</span -->
+            <!--           > -->
+            <!--         </div> -->
+            <!--       </div> -->
+            <!--       <div -->
+            <!--         class=" -->
+            <!--           col-4 -->
+            <!--           d-flex -->
+            <!--           justify-content-end -->
+            <!--           d-flex -->
+            <!--           align-items-center -->
+            <!--         " -->
+            <!--       > -->
+            <!--         <!-- Modal Trigger -->
+            <!--         <button -->
+            <!--           class="btn btn-info job-tile-btn" -->
+            <!--           data-bs-toggle="modal" -->
+            <!--           data-bs-target="#devopsJob" -->
+            <!--         > -->
+            <!--           detail -->
+            <!--         </button> -->
+            <!--       </div> -->
+            <!--     </div> -->
+            <!--   </div> -->
+            <!-- </div> -->
+            <!-- <!-- Modal -->
+            <!-- <div -->
+            <!--   class="modal fade" -->
+            <!--   id="devopsJob" -->
+            <!--   aria-labelledby="devopsJob" -->
+            <!--   aria-hidden="true" -->
+            <!-- > -->
+            <!--   <div class="modal-dialog modal-md modal-dialog-centered"> -->
+            <!--     <div class="modal-content modal-theme"> -->
+            <!--       <div class="modal-body"> -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col d-flex justify-content-end"> -->
+            <!--             <button data-bs-dismiss="modal"> -->
+            <!--               <i class="bi bi-x icon-close"></i> -->
+            <!--             </button> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col"> -->
+            <!--             <h5 class="text-center">WHO ARE WE LOOKING FOR ?</h5> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col"> -->
+            <!--             <p> -->
+            <!--               An individual who is looking to -->
+            <!--               gain experience in the devops and infrastucture field. In -->
+            <!--               particular, we work closely with Kubernetes and host our own servers. -->
+            <!--               So, you will be able to work with a wide range of -->
+            <!--               applications at all stages of the development cycle. -->
+            <!--             </p> -->
+            <!---->
+            <!--             <p> -->
+            <!--               Responsibilities: Maintain company's infrastructure, -->
+            <!--               manage network traffic (Cloudflare), create and optimize build systems, -->
+            <!--               establish a streamlined CI/CD automation process, evaluate new tools -->
+            <!--               and technologies to improve software development processes and deployment. -->
+            <!--             </p> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--         <!-- Requirements -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col"> -->
+            <!--             <h5 class="text-center">REQUIREMENTS</h5> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col"> -->
+            <!--             <ul> -->
+            <!--               <li>Good written skills in English</li> -->
+            <!--               <li> -->
+            <!--                 Basic knowledge of software design and/or engineering -->
+            <!--               </li> -->
+            <!--               <li> -->
+            <!--                 Basic networking concepts -->
+            <!--               </li> -->
+            <!--               <li> -->
+            <!--                 Analytical and problem-solving skills -->
+            <!--               </li> -->
+            <!--             </ul> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!---->
+            <!--         <!-- Requirements -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col"> -->
+            <!--             <h5 class="text-center">NICE TO HAVE</h5> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col"> -->
+            <!--             <ul> -->
+            <!--               <li>Linux knowledge</li> -->
+            <!--               <li>Reading and researching skills</li> -->
+            <!--               <li>Experienced in containerized applications (Docker, Kubernetes, etc.)</li> -->
+            <!--               <li>Experienced in CI/CD pipline</li> -->
+            <!--             </ul> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--         <hr /> -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col d-flex justify-content-center"> -->
+            <!--             <h5 class="text-center how-to-apply">HOW TO APPLY</h5> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--         <div class="row"> -->
+            <!--           <div class="col"> -->
+            <!--             <p> -->
+            <!--               Please send us an application letter, resume and/or -->
+            <!--               University Transcript via e-mail. -->
+            <!--             </p> -->
+            <!--             <p> -->
+            <!--               In the header, please use "JOB:SW-2023" as the subject -->
+            <!--               title. -->
+            <!--             </p> -->
+            <!--             <p class=""> -->
+            <!--               <i class="bi bi-envelope"></i> -->
+            <!--               <a href="mailto:careers@apiplustech.com" -->
+            <!--                 >careers@apiplustech.com</a -->
+            <!--               ><br /> -->
+            <!--             </p> -->
+            <!--             <a href="./assets/documents/devops-2023.png" target="_blank"> -->
+            <!--               <button class="btn-blue"> -->
+            <!--                 <i class="bi bi-file-earmark-post"></i> recruitment -->
+            <!--                 poster -->
+            <!--               </button> -->
+            <!--             </a> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--       </div> -->
+            <!--     </div> -->
+            <!--   </div> -->
+            <!-- </div> -->
+            <!-- <!-- end of devops engineer -->
           </div>
-          <!-- end of software engineer -->
-
-          <!-- <!-- junior devops engineer -->
-          <!-- <div class="row justify-content-center"> -->
-          <!--   <div class="col-10 col-sm-8 job-tile"> -->
-          <!--     <div class="row"> -->
-          <!--       <div class="col-8"> -->
-          <!--         <div class="row"> -->
-          <!--           <span class="job-title">Junior Devops Engineer</span> -->
-          <!--         </div> -->
-          <!--         <div class="row"> -->
-          <!--           <span class="job-terms" -->
-          <!--             >bangkok, thailand (full-time)</span -->
-          <!--           > -->
-          <!--         </div> -->
-          <!--       </div> -->
-          <!--       <div -->
-          <!--         class=" -->
-          <!--           col-4 -->
-          <!--           d-flex -->
-          <!--           justify-content-end -->
-          <!--           d-flex -->
-          <!--           align-items-center -->
-          <!--         " -->
-          <!--       > -->
-          <!--         <!-- Modal Trigger -->
-          <!--         <button -->
-          <!--           class="btn btn-info job-tile-btn" -->
-          <!--           data-bs-toggle="modal" -->
-          <!--           data-bs-target="#devopsJob" -->
-          <!--         > -->
-          <!--           detail -->
-          <!--         </button> -->
-          <!--       </div> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!-- </div> -->
-          <!-- <!-- Modal -->
-          <!-- <div -->
-          <!--   class="modal fade" -->
-          <!--   id="devopsJob" -->
-          <!--   aria-labelledby="devopsJob" -->
-          <!--   aria-hidden="true" -->
-          <!-- > -->
-          <!--   <div class="modal-dialog modal-md modal-dialog-centered"> -->
-          <!--     <div class="modal-content modal-theme"> -->
-          <!--       <div class="modal-body"> -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col d-flex justify-content-end"> -->
-          <!--             <button data-bs-dismiss="modal"> -->
-          <!--               <i class="bi bi-x icon-close"></i> -->
-          <!--             </button> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col"> -->
-          <!--             <h5 class="text-center">WHO ARE WE LOOKING FOR ?</h5> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col"> -->
-          <!--             <p> -->
-          <!--               An individual who is looking to -->
-          <!--               gain experience in the devops and infrastucture field. In -->
-          <!--               particular, we work closely with Kubernetes and host our own servers. -->
-          <!--               So, you will be able to work with a wide range of -->
-          <!--               applications at all stages of the development cycle. -->
-          <!--             </p> -->
-          <!---->
-          <!--             <p> -->
-          <!--               Responsibilities: Maintain company's infrastructure, -->
-          <!--               manage network traffic (Cloudflare), create and optimize build systems, -->
-          <!--               establish a streamlined CI/CD automation process, evaluate new tools -->
-          <!--               and technologies to improve software development processes and deployment. -->
-          <!--             </p> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!--         <!-- Requirements -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col"> -->
-          <!--             <h5 class="text-center">REQUIREMENTS</h5> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col"> -->
-          <!--             <ul> -->
-          <!--               <li>Good written skills in English</li> -->
-          <!--               <li> -->
-          <!--                 Basic knowledge of software design and/or engineering -->
-          <!--               </li> -->
-          <!--               <li> -->
-          <!--                 Basic networking concepts -->
-          <!--               </li> -->
-          <!--               <li> -->
-          <!--                 Analytical and problem-solving skills -->
-          <!--               </li> -->
-          <!--             </ul> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!---->
-          <!--         <!-- Requirements -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col"> -->
-          <!--             <h5 class="text-center">NICE TO HAVE</h5> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col"> -->
-          <!--             <ul> -->
-          <!--               <li>Linux knowledge</li> -->
-          <!--               <li>Reading and researching skills</li> -->
-          <!--               <li>Experienced in containerized applications (Docker, Kubernetes, etc.)</li> -->
-          <!--               <li>Experienced in CI/CD pipline</li> -->
-          <!--             </ul> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!--         <hr /> -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col d-flex justify-content-center"> -->
-          <!--             <h5 class="text-center how-to-apply">HOW TO APPLY</h5> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!--         <div class="row"> -->
-          <!--           <div class="col"> -->
-          <!--             <p> -->
-          <!--               Please send us an application letter, resume and/or -->
-          <!--               University Transcript via e-mail. -->
-          <!--             </p> -->
-          <!--             <p> -->
-          <!--               In the header, please use "JOB:SW-2023" as the subject -->
-          <!--               title. -->
-          <!--             </p> -->
-          <!--             <p class=""> -->
-          <!--               <i class="bi bi-envelope"></i> -->
-          <!--               <a href="mailto:careers@apiplustech.com" -->
-          <!--                 >careers@apiplustech.com</a -->
-          <!--               ><br /> -->
-          <!--             </p> -->
-          <!--             <a href="./assets/documents/devops-2023.png" target="_blank"> -->
-          <!--               <button class="btn-blue"> -->
-          <!--                 <i class="bi bi-file-earmark-post"></i> recruitment -->
-          <!--                 poster -->
-          <!--               </button> -->
-          <!--             </a> -->
-          <!--           </div> -->
-          <!--         </div> -->
-          <!--       </div> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!-- </div> -->
-          <!-- <!-- end of devops engineer -->
         </div>
-      </div>
-    </section>
+      </section>
 
-    <footer id="section-footer">
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <h3 class="text-center">CONTACT US</h3>
-          <p class="text-center">
-            1179/19 Rama IV Road, Khlong Tan, Khlong Toei, Bangkok, 10110
-          </p>
-          <p class="text-center">
-            <i class="bi bi-envelope"></i>
-            <a href="mailto:contact@apiplustech.com">contact@apiplustech.com</a>
-          </p>
+      <footer id="section-footer">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <h3 class="text-center">CONTACT US</h3>
+            <p class="text-center">
+              1179/19 Rama IV Road, Khlong Tan, Khlong Toei, Bangkok, 10110
+            </p>
+            <p class="text-center">
+              <i class="bi bi-envelope"></i>
+              <a href="mailto:contact@apiplustech.com"
+                >contact@apiplustech.com</a
+              >
+            </p>
+          </div>
         </div>
-      </div>
-    </footer>
-  </div>
-</body>
-
+      </footer>
+    </div>
+  </body>
 </html>
